@@ -21,6 +21,9 @@
 		E95C5FB31977837700A8E420 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E95C5F951977837700A8E420 /* UIKit.framework */; };
 		E95C5FBB1977837700A8E420 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E95C5FB91977837700A8E420 /* InfoPlist.strings */; };
 		E95C5FBD1977837700A8E420 /* AnnotationGroupingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E95C5FBC1977837700A8E420 /* AnnotationGroupingTests.m */; };
+		E95C5FC71977848D00A8E420 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E95C5FC61977848D00A8E420 /* MapKit.framework */; };
+		E95C5FC91977849200A8E420 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E95C5FC81977849200A8E420 /* CoreLocation.framework */; };
+		E95C5FCC1977933600A8E420 /* PointMapItem.m in Sources */ = {isa = PBXBuildFile; fileRef = E95C5FCB1977933600A8E420 /* PointMapItem.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +56,10 @@
 		E95C5FB81977837700A8E420 /* AnnotationGroupingTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AnnotationGroupingTests-Info.plist"; sourceTree = "<group>"; };
 		E95C5FBA1977837700A8E420 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		E95C5FBC1977837700A8E420 /* AnnotationGroupingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AnnotationGroupingTests.m; sourceTree = "<group>"; };
+		E95C5FC61977848D00A8E420 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		E95C5FC81977849200A8E420 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		E95C5FCA1977933600A8E420 /* PointMapItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PointMapItem.h; sourceTree = "<group>"; };
+		E95C5FCB1977933600A8E420 /* PointMapItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PointMapItem.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +67,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E95C5FC91977849200A8E420 /* CoreLocation.framework in Frameworks */,
+				E95C5FC71977848D00A8E420 /* MapKit.framework in Frameworks */,
 				E95C5F941977837700A8E420 /* CoreGraphics.framework in Frameworks */,
 				E95C5F961977837700A8E420 /* UIKit.framework in Frameworks */,
 				E95C5F921977837700A8E420 /* Foundation.framework in Frameworks */,
@@ -101,6 +110,8 @@
 		E95C5F901977837700A8E420 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				E95C5FC81977849200A8E420 /* CoreLocation.framework */,
+				E95C5FC61977848D00A8E420 /* MapKit.framework */,
 				E95C5F911977837700A8E420 /* Foundation.framework */,
 				E95C5F931977837700A8E420 /* CoreGraphics.framework */,
 				E95C5F951977837700A8E420 /* UIKit.framework */,
@@ -117,6 +128,8 @@
 				E95C5FA31977837700A8E420 /* Main.storyboard */,
 				E95C5FA61977837700A8E420 /* AGViewController.h */,
 				E95C5FA71977837700A8E420 /* AGViewController.m */,
+				E95C5FCA1977933600A8E420 /* PointMapItem.h */,
+				E95C5FCB1977933600A8E420 /* PointMapItem.m */,
 				E95C5FA91977837700A8E420 /* Images.xcassets */,
 				E95C5F981977837700A8E420 /* Supporting Files */,
 			);
@@ -250,6 +263,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E95C5FCC1977933600A8E420 /* PointMapItem.m in Sources */,
 				E95C5FA21977837700A8E420 /* AGAppDelegate.m in Sources */,
 				E95C5FA81977837700A8E420 /* AGViewController.m in Sources */,
 				E95C5F9E1977837700A8E420 /* main.m in Sources */,
